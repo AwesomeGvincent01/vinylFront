@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vinylFront", "vinylFront.csproj", "{F82E0B33-3337-40FB-879B-7FEFBB11CA51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vinylApp", "..\..\..\Downloads\OneDrive_2025-05-23 (4)\OneDrive_2025-05-23\vinylApp (1)\vinylApp.csproj", "{082FE8D0-12CA-0352-5828-055E2F25FAC8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F82E0B33-3337-40FB-879B-7FEFBB11CA51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F82E0B33-3337-40FB-879B-7FEFBB11CA51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F82E0B33-3337-40FB-879B-7FEFBB11CA51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F82E0B33-3337-40FB-879B-7FEFBB11CA51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{082FE8D0-12CA-0352-5828-055E2F25FAC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{082FE8D0-12CA-0352-5828-055E2F25FAC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{082FE8D0-12CA-0352-5828-055E2F25FAC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{082FE8D0-12CA-0352-5828-055E2F25FAC8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4BED46CE-D405-4044-8506-CBA2A56D7652}
+	EndGlobalSection
+EndGlobal
