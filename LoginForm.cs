@@ -9,12 +9,11 @@ namespace vinylFront
     {
         private StorageManager storageManager;
 
-        public LoginForm()
+        // ✅ Accept StorageManager via constructor
+        public LoginForm(StorageManager manager)
         {
             InitializeComponent();
-
-            string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"C:\\Users\\vgkel\\Downloads\\VincentKellett_SQLProj 2 1\\VincentKellett_SQLProj 2\\VincentKellett_SQLProj\\vinylDBTrue\\vinylDBTrue.mdf\";Integrated Security=True;Connect Timeout=30;Encrypt=True";
-            storageManager = new StorageManager(connectionString);
+            storageManager = manager;
         }
 
         private void btnLogin_Click(object sender, EventArgs e)
@@ -34,14 +33,12 @@ namespace vinylFront
             {
                 lblMessage.Text = $"Login successful! Welcome, {user.Username} ({user.Role})";
 
-
                 MessageBox.Show($"Welcome {user.Username}, you are logged in as {user.Role}");
 
+                // ✅ Pass the same storageManager forward
                 MainMenuForm menuForm = new MainMenuForm(storageManager);
                 menuForm.Show();
                 this.Hide();
-
-
             }
             else
             {
@@ -51,12 +48,10 @@ namespace vinylFront
 
         private void LoginForm_Load(object sender, EventArgs e)
         {
-
         }
 
         private void txtUsername_TextChanged(object sender, EventArgs e)
         {
-
         }
     }
 }
