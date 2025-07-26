@@ -49,6 +49,7 @@ namespace vinylFront
             LoginForm loginForm = new LoginForm();
             loginForm.Show();
             this.Hide();
+            //test
         }
 
         private void btnRegister_Click(object sender, EventArgs e)
