@@ -34,7 +34,11 @@ namespace vinylFront
             exitHover = Image.FromFile("exit_hover.png");
             exitNormal = pbExit.Image;
 
-        
+            // Setup login PictureBox (pbLogin1)
+            pbLogin1.MouseEnter += (s, ev) => pbLogin1.Image = loginHover;
+            pbLogin1.MouseLeave += (s, ev) => pbLogin1.Image = Image.FromFile("login_normal.png");
+            pbLogin1.Click += btnLogin_Click;
+            pbLogin1.Cursor = Cursors.Hand;
 
             // Setup register PictureBox (pbRegister1)
             pbRegister1.MouseEnter += (s, ev) => pbRegister1.Image = registerHover;
@@ -81,5 +85,11 @@ namespace vinylFront
             registerForm.Show();
             this.Hide();
         }
+
+        private void pbLogin1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
+

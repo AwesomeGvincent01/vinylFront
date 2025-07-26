@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Downloads\OneDrive_2025-05-23 (4)\OneDrive_2025-05-23\vinylApp (1)\vinylApp.csproj" />
+    <ProjectReference Include="..\..\..\Downloads\VK_PROJECT (2)\VK_PROJECT\vinylVault\vinylApp (1)\vinylApp.csproj" />
   </ItemGroup>
 
   <ItemGroup>
