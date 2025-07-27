@@ -35,9 +35,9 @@
             // pbRegister1
             // 
             pbRegister1.Image = (Image)resources.GetObject("pbRegister1.Image");
-            pbRegister1.Location = new Point(24, 206);
+            pbRegister1.Location = new Point(23, 259);
             pbRegister1.Name = "pbRegister1";
-            pbRegister1.Size = new Size(257, 150);
+            pbRegister1.Size = new Size(251, 129);
             pbRegister1.SizeMode = PictureBoxSizeMode.StretchImage;
             pbRegister1.TabIndex = 4;
             pbRegister1.TabStop = false;
@@ -45,9 +45,9 @@
             // pbExit
             // 
             pbExit.Image = (Image)resources.GetObject("pbExit.Image");
-            pbExit.Location = new Point(692, 344);
+            pbExit.Location = new Point(563, 349);
             pbExit.Name = "pbExit";
-            pbExit.Size = new Size(96, 94);
+            pbExit.Size = new Size(99, 89);
             pbExit.SizeMode = PictureBoxSizeMode.StretchImage;
             pbExit.TabIndex = 5;
             pbExit.TabStop = false;
@@ -55,9 +55,9 @@
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(329, 126);
+            pictureBox1.Location = new Point(391, 104);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(316, 265);
+            pictureBox1.Size = new Size(284, 252);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 6;
             pictureBox1.TabStop = false;
@@ -65,7 +65,7 @@
             // pictureBox2
             // 
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(354, 397);
+            pictureBox2.Location = new Point(313, 397);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(64, 31);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -75,9 +75,9 @@
             // pbLogin1
             // 
             pbLogin1.Image = (Image)resources.GetObject("pbLogin1.Image");
-            pbLogin1.Location = new Point(34, 55);
+            pbLogin1.Location = new Point(31, 122);
             pbLogin1.Name = "pbLogin1";
-            pbLogin1.Size = new Size(247, 130);
+            pbLogin1.Size = new Size(243, 121);
             pbLogin1.SizeMode = PictureBoxSizeMode.StretchImage;
             pbLogin1.TabIndex = 8;
             pbLogin1.TabStop = false;
@@ -86,9 +86,9 @@
             // pictureBox3
             // 
             pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
-            pictureBox3.Location = new Point(279, 12);
+            pictureBox3.Location = new Point(2, -1);
             pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(521, 124);
+            pictureBox3.Size = new Size(482, 108);
             pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox3.TabIndex = 9;
             pictureBox3.TabStop = false;
@@ -97,13 +97,13 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(703, 450);
+            Controls.Add(pbExit);
             Controls.Add(pictureBox3);
             Controls.Add(pbLogin1);
             Controls.Add(pictureBox2);
-            Controls.Add(pictureBox1);
-            Controls.Add(pbExit);
             Controls.Add(pbRegister1);
+            Controls.Add(pictureBox1);
             Name = "Form1";
             Text = "Welcome";
             Load += Form1_Load;
