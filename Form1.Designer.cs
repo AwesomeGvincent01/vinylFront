@@ -45,7 +45,7 @@
             // pbExit
             // 
             pbExit.Image = (Image)resources.GetObject("pbExit.Image");
-            pbExit.Location = new Point(661, 344);
+            pbExit.Location = new Point(692, 344);
             pbExit.Name = "pbExit";
             pbExit.Size = new Size(96, 94);
             pbExit.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -65,7 +65,7 @@
             // pictureBox2
             // 
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(369, 397);
+            pictureBox2.Location = new Point(354, 397);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(64, 31);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
